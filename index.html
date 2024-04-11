@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Escape Travels</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+    <body>
+        <header class="custom-header">
+            <nav class="navbar navbar-expand-lg navbar-white">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logoHeader.jpg" alt="Logo" class="logo ">
+                        Escape Travels
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto">
+                            <a class="nav-link active" aria-current="page" href="#marshruts">Просмотр маршрутов</a>
+                            <a class="nav-link" href="personal_account.html">Личный кабинет</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        
+        <main class="bg-white font pb-2" style="--bs-bg-opacity: .5;">
+
+            <section class="custom-main-section">
+                <div class="container-fluid">
+                    <div class="p-3">
+                        <div class="row justify-content-center">
+                            <div class="col-12 text-center">
+                                <h2 class="custom-title">Escape Travels</h2>
+                            </div>
+                            <div class="col-md-8 text-center">
+                                <p class="custom-text">Погрузитесь в мир истории и культуры вместе с нами! Наша туристическая компания предлагает уникальные экскурсии по живописным уголкам Москвы.</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 text-center">
+                                <img src="./images/logo.jpg" class="img-fluid" alt="logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <div class="container mt-5">
+                <h2 class="text-center mb-4">Наши достоинства</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Экспертность и опыт</h5>
+                                <p class="card-text">Наша команда состоит из опытных профессионалов, которые обладают глубоким знанием о местах, которые мы посещаем, и организации туров.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Индивидуальный подход</h5>
+                                <p class="card-text">Мы ценим каждого клиента и стремимся к тому, чтобы их путешествие было уникальным и запоминающимся.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Безопасность</h5>
+                                <p class="card-text">Наши туры разрабатываются с учетом всех аспектов безопасности, и мы предпринимаем все необходимые меры для обеспечения комфортного и безопасного путешествия.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Качество сервиса</h5>
+                                <p class="card-text"> Мы стремимся к предоставлению высокого уровня сервиса во всех аспектах нашей работы.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Непревзойденный выбор</h5>
+                                <p class="card-text">Мы предлагаем широкий выбор туров и маршрутов, чтобы удовлетворить интересы и предпочтения каждого клиента.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Цена</h5>
+                                <p class="card-text">Мы стремимся предоставлять высококачественные услуги по доступной цене.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <section class="container mt-5 theme-dark" id="marshruts">
+                <h4 class="fw-bold text-center text-dark">Список маршрутов</h4>
+                <div class="row text-center">
+                    <div class="col-6">
+                        <p class="text-dark">Поиск по названию</p>
+                        <input type="text" class="form-control custom-input">
+                    </div>
+                    <div class="col-6">
+                        <p class="text-dark">Поиск по объектам</p>
+                        <select class="form-control custom-select"></select>
+                    </div>
+                    <div class="col text-center mt-3">
+                        <button type="button" class="btn custom-btn">Найти</button>
+                    </div>                    
+                </div>
+                <article class="content">
+                    <div class="row">
+                        <div class="col-12">
+                            <table class="table custom-table text-center">
+                                <thead>
+                                    <tr>
+                                        <th class="text-light">Название маршрута</th>
+                                        <th class="text-light">Описание</th>
+                                        <th class="text-light">Места посещения</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="table1"></tbody>
+                            </table>
+                            <div class="text-center">
+                                <ul class="pagination justify-content-center" id="pagination"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>                
+            </section>
+            
+            <section class="fw-bold container mt-1">
+                <div class="div-gids pb-2">
+                    <p id="addNameMarshrut"></p>
+                    <div class="table-div table-info" id="gidsTable">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-dark text-light py-3 text-center">
+            Селевенев Владислав Игоревич 221-353
+        </footer>
+    </body>
+</html>
